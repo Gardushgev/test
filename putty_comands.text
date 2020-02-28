@@ -1,5 +1,13 @@
 $ zip -r myzip.zip Folder1 //add to zip folder Folder1 width files
 $ unzip myzip.zip
+
+$ mkdir foo
+$ mv example.txt foo
+$ ls --inode
+7476865 foo
+$ ls --inode foo
+7344977 example.txt
+
 https://phoenixnap.com/kb/linux-ssh-commands
 Basic SSH Commands
 Working on a remote server using SSH requires knowing basic SSH commands. Use the commands and options in this article to manage a 
