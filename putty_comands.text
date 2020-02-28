@@ -1,8 +1,8 @@
 $ zip -r myzip.zip Folder1 //add to zip folder Folder1 width files
 $ unzip myzip.zip
 
-$ mkdir foo
-$ mv example.txt foo
+$ mkdir foo //create foo folder
+$ mv example.txt foo // move example.txt file to foo folder
 $ ls --inode
 7476865 foo
 $ ls --inode foo
