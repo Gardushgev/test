@@ -1,0 +1,116 @@
+Basic SSH Commands
+Working on a remote server using SSH requires knowing basic SSH commands. Use the commands and options in this article to manage a 
+remote host. Note that you can combine the flags to get the output you need.
+
+Show Working Directory Path
+Use the pwd command to show the file system path.
+
+example of a working directory ssh command terminal
+The output displays the location of the directory you are in.
+
+List Files and Directories
+To list the contents of a current working folder, use the ls command.
+
+The shell will show the names of all directories, files, and links. To get more information, add one of the following flags:
+
+-a displays hidden files and entries starting with a dot.
+-l shows file details for directory contents. For example, the output includes permissions, ownership, date, etc.
+-s lists the size of files, in blocks. Add -h to show the size in a humanly-readable form.
+Change Directory
+To navigate to a specific folder, use the cd command and a name or path of a directory.
+
+cd Desktop/Downloads/Sample
+Remember that the names are case sensitive. Use cd without a name or path to return to the user’s home directory.
+
+Useful cd options include:
+
+cd .. go to the directory one level higher than your current location.
+cd - switch to the previous directory.
+cd / go to the root directory.
+Copy a File
+Use the cp command to copy a file or directory. You’ll need to include the name of the file and the target location.
+
+cp fileName /directory/path/destination
+To copy file1 from Desktop to Dir1, type in:
+
+cp file1 Dir1
+To change the name of file1 while copying it to another destination, use this format:
+
+cp file1 Dir1/Newfile1Name
+This command copies file1 to Dir1 with a name you specify.
+
+To copy a directory and its contents, use the -r flag in this format:
+
+cp -r Directory1 NewLocation
+Move a File
+The mv command works in the same manner as the copy command.
+
+For instance, to move a file to another location, type in:
+
+mv fileName directory/path/destination
+Create a File
+The touch command allows you to create a new file with any extension.
+
+In the terminal, enter the following command:
+
+touch fileName
+For example, to create a system.log file, type in:
+
+touch system.log
+Create a Directory
+To create a directory, use the mkdir command. Enter a new directory name or full path in this format:
+
+mkdir NewDirectoryName
+Or:
+
+mkdir directory/path/NewDirectoryName
+Delete a File or Directory
+To delete a Linux file , use rm in this format:
+
+rm fileName
+In addition, you can enter a full path:
+
+rm /home/user/dir1/fileName
+To delete a directory, add the -r flag to the rm command.
+
+View Network Information
+To view the status of all network adapters, use the ifconfig command. Moreover, when you don’t use any options with ifconfig, the
+output displays only active interfaces.
+
+Network information with ifconfig command
+Clear the Terminal Screen
+To clear the current working area of your bash screen, type clear in the shell. This command clears one portion of the screen and 
+shifts up the previous output.
+
+To remove the output from the terminal completely, use the reset command.
+
+Run a Command on a Remote Server from a Local Computer
+This method does not create a new shell. Instead, it runs a command and returns the user to the local prompt. You can create a file,
+copy files, or run any other SSH command in this format.
+
+To remotely execute a command from the local machine, append an instruction to the SSH command. For example, to delete a file, type in:
+
+ssh test.server.com rm ~/Desktop/Dir1/sample4
+Enter the password, and the file on the remote server will be deleted without creating a new shell.
+
+SSH Command Line Options
+The SSH tool comes with many optional parameters. The table below lists common SSH options and the corresponding descriptions.
+
+SSH Option	Description
+-1	Instructs ssh to use protocol version 1
+-2	Instructs ssh to use protocol version 2.
+-4	Permits only IPv4 addresses.
+-6	Permits only IPv6 addresses.
+-A	Enables authentication agent connection forwarding. Use this option with caution.
+-a	Disables authentication agent connection forwarding.
+-b bind_address	Use this option on the local host with more than one address to set the source address of the connection.
+-C	Enables data compression for all files. Only to be used with slow connections.
+-c cipher_spec	Use to select a cipher specification. List the values separated by a comma.
+-E log_fileName	Attaches debug logs to log_file instead of standard error.
+-f	Sends ssh to background, even before entering a password or passphrase.
+-g	Permits remote hosts to connect to ports forwarded on a local machine.
+-q	Runs ssh in quiet mode. It suppresses most error or warning messages.
+-V	Displays the version of ssh tool and exits.
+-v	Prints debugging messages for ssh connection. The verbose mode is useful when troubleshooting configuration issues.
+-X	Use this option to enable X11 forwarding.
+-x	Disable X11 forwarding.
