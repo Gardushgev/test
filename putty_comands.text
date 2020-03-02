@@ -8,6 +8,11 @@ $output = `unzip myzip.zip`;
 echo "<pre>$output</pre>";
 ?>
 
+<?php
+$output = `rm -r mydir garbage`;
+echo "<pre>$output</pre>";
+?>
+
 $ zip -r myzip.zip Folder1 //add to zip folder Folder1 width files
 $ unzip myzip.zip
 
