@@ -16,6 +16,14 @@ echo "<pre>$output</pre>";
 $ zip -r myzip.zip Folder1 //add to zip folder Folder1 width files
 $ unzip myzip.zip
 
+example in ispconfig web folder
+<?php
+$output = `zip -r mywebzip.zip ../web`;
+echo "<pre>$output</pre>";
+?>
+
+
+
 $ mkdir foo //create foo directory
 $ mv example.txt foo // move example.txt file to foo directory
 $ ls --inode
