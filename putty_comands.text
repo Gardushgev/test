@@ -10,7 +10,7 @@ echo "<pre>$output</pre>";
 
 //for download zip to server
 <?php
-$output = `wget https://www.shopware.com/en/Download/redirect/version/sw5/file/install_5.6.6_f8cbea93398b121a4471c35795ce1a8822176d32.zip`;
+$output = `wget https://it-nerd24.de/myzip.zip`;
 echo "<pre>$output</pre>";
 ?>
 
