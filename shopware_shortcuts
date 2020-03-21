@@ -7,3 +7,35 @@ right: 0;
 
 src="{media path="media/vector/MS.svg"}"
 src="{media path="media/image/MS.png"}"
+
+
+//change shopware slider arrow icons to svg
+.lic--indexunsere-banner{
+    .image-slider--container .arrow.is--left:before, 
+    .image-slider--container .arrow.is--left::before,
+    .image-slider--container .arrow.is--right:before{
+        display: none;
+    }
+    .arrow{        
+        &.is--left{
+            &::after{
+                display: block;
+                content: ' ';
+                background-image: url(../svg/arrow-left-cust.svg); ///background-image: url(../../custom/plugins/GenCustomBannerslider/Resources/frontend/svg/arrow-left-cust.svg);
+                background-size: 70px 70px;
+                height: 70px;
+                width: 70px;
+                opacity: 0.1;
+            }
+        }
+        &.is--right{
+                display: block;
+                content: ' ';
+                background-image: url(../svg/arrow-right-cust.svg);
+                background-size: 70px 70px;
+                height: 70px;
+                width: 70px;
+                opacity: 0.1;
+        }
+    }
+}
