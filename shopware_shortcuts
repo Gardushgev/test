@@ -39,3 +39,6 @@ src="{media path="media/image/MS.png"}"
         }
     }
 }
+
+
+$this->Response()->setCookie( 'soft_code', $SoftwareCode, time()+86400, '/' );
