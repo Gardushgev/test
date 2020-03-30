@@ -1,17 +1,17 @@
 red -   #df2d3e
 blue -  #66b0b8
-
+/////////////////////////////////////////////////////////////////////////
 position: absolute;
 margin-left: auto;
 margin-right: auto;
 left: 0;
 right: 0;
 
-
+//////////////////////////////////////////////////////////////////////
 src="{media path="media/vector/MS.svg"}"
 src="{media path="media/image/MS.png"}"
 
-
+////////////////////////////////////////////////////////////////////////
 //change shopware slider arrow icons to svg
 .lic--indexunsere-banner{
     .image-slider--container .arrow.is--left:before, 
@@ -43,5 +43,23 @@ src="{media path="media/image/MS.png"}"
     }
 }
 
-
+/////////////////////////////////////////////////////////////////////
 $this->Response()->setCookie( 'soft_code', $SoftwareCode, time()+86400, '/' );
+//////////////////////////////////////////////////////////////////////////////////////////
+triangles
+.arrow-up {
+    width: 0px;
+    height: 0px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 12px solid #2f2f2f;
+}
+
+.arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 12px solid #f00;
+}
+//////////////////////////////////////////////////////////////////////////////////////////////
