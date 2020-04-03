@@ -42,6 +42,8 @@ css
 .pass-visible{
     position: absolute;  
     transition: all .5s;
+    top: 0;
+    right: 0;
     &::after{
         content: '';
         background-image: url(https://license-now.de/media/vector/e4/46/e9/Visible.svg);
