@@ -1,6 +1,6 @@
 tpl
 
-<inputtype="checkbox"/>
+<input type="checkbox"/>
 <span class="input--state checkbox--state">&nbsp;</span>  
 
 css
@@ -31,3 +31,32 @@ input{
                 left: 2px;
             }
         }
+
+
+////////
+visible tpl
+<input type="password"/>
+<span class="pass-visible"></span>
+
+css
+.pass-visible{
+    position: absolute;  
+    transition: all .5s;
+    &::after{
+        content: '';
+        background-image: url(https://license-now.de/media/vector/e4/46/e9/Visible.svg);
+        display: block;
+        background-size: 25px 25px;
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        top: 7px;
+        right: 5px;            
+        cursor: pointer;            
+    }        
+    &:hover{      
+        &::after{
+            background-image: url(https://license-now.de/media/vector/6b/c6/6b/Visible-Hover.svg);            
+        }
+    }
+}
