@@ -1,5 +1,6 @@
 red -   #df2d3e
 blue -  #66b0b8
+{s namespace='frontend/newsletter/detail' name='NewsletterDetailLinkBack}Zuruck{/s}
 /////////////////////////////////////////////////////////////////////////
 position: absolute;
 margin-left: auto;
