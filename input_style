@@ -41,6 +41,40 @@ input[type="checkbox"]:checked ~ span.input--state.checkbox--state{
 .input--checkbox-div{
     position: relative;
 }
+input[type="radio"]{
+        z-index: 2;
+        opacity: 0;
+        width: 21px;
+        position: relative;
+        height: 17px;
+        left: -9px;
+        top: 2px;
+        cursor: pointer;
+    }
+    .input--state.checkbox--state {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #04212f;
+    }
+    input[type="radio"]:checked ~ span.input--state.checkbox--state{
+        &::before{
+            content: '';
+            background-image: url(https://license-now.de/media/vector/a6/29/5e/Check.svg);
+            display: block;
+            background-size: 25px 25px;
+            height: 25px;
+            width: 25px;
+            position: absolute;
+            top: -9px;
+            left: 2px;
+        }
+    }
+
+
 
 ////////
 visible tpl
