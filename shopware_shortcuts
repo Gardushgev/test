@@ -1,3 +1,28 @@
+{extends file='parent:frontend/index/header.tpl'}
+
+{* Meta opengraph tags *}
+{block name='frontend_index_header_meta_tags_opengraph'}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{config name=sShopname}|escapeHtml}" />
+    <meta property="og:title" content="{{config name=sShopname}|escapeHtml}" />
+    {s name="IndexMetaDescriptionStandard" assign="snippetIndexMetaDescriptionStandard"}{/s}
+    <meta property="og:description" content="{block name='frontend_index_header_meta_description_og'}{$snippetIndexMetaDescriptionStandard|truncate:$SeoDescriptionMaxLength:'…'}{/block}" />        
+   {*} <meta property="og:image" content="{if {$Locale} eq 'de_DE'}
+           {media path='media/image/it-nerd_link-image_400x300_de.jpg'}
+        {elseif {$Locale} eq 'de_AT'}
+           {media path='media/image/it-nerd_link-image_400x300_at.jpg'}
+        {elseif {$Locale} eq 'de_CH'}
+           {media path='media/image/it-nerd_link-image_400x300_ch.jpg'}
+        {/if}" />      {*}
+
+    <meta name="twitter:card" content="website" />
+    <meta name="twitter:site" content="{{config name=sShopname}|escapeHtml}" />
+    <meta name="twitter:title" content="{{config name=sShopname}|escapeHtml}" />
+    {s name="IndexMetaDescriptionStandard" assign="snippetIndexMetaDescriptionStandard"}{/s}
+    <meta name="twitter:description" content="{block name='frontend_index_header_meta_description_twitter'}{$snippetIndexMetaDescriptionStandard|truncate:$SeoDescriptionMaxLength:'…'}{/block}" />
+    <meta name="twitter:image" content="{link file=$theme.desktopLogo fullPath}" />
+{/block}
+////////////////////////
 red -   #df2d3e
 blue -  #66b0b8
 {s namespace='frontend/newsletter/detail' name='NewsletterDetailLinkBack}Zuruck{/s}
