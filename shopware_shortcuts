@@ -1,3 +1,7 @@
+////////////////
+{sCategoryPath articleID=$sArticle.id}/{$sArticle.id}/{$sArticle.name}
+/////////////////
+
 {extends file='parent:frontend/index/header.tpl'}
 
 {* Meta opengraph tags *}
