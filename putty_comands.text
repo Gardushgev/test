@@ -1,3 +1,4 @@
+add to zip file Games folder
 <?php
 $output = `zip -r myzip.zip Games`;
 echo "<pre>$output</pre>";
