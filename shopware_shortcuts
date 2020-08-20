@@ -75,6 +75,7 @@ src="{media path="media/image/MS.png"}"
 
 /////////////////////////////////////////////////////////////////////
 $this->Response()->setCookie( 'soft_code', $SoftwareCode, time()+86400, '/' );
+$cookieData = $this->request->getCookie(); //return array
 ///
 $session = Shopware()->Session();   
 $session->offsetSet('basketUsbArticle', true);
