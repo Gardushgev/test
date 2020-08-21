@@ -106,3 +106,9 @@ jquery on method
 $('body').on("click", '[data-detail-scroll="true"]', function(){
                         
 });
+///////////////////////////////////////////////////////////////////////////////////////////////
+$isMobile = Shopware()->Front()->Request()->getDeviceType() === 'mobile';
+
+
+
+
