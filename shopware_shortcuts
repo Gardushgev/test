@@ -108,7 +108,14 @@ $('body').on("click", '[data-detail-scroll="true"]', function(){
 });
 ///////////////////////////////////////////////////////////////////////////////////////////////
 $isMobile = Shopware()->Front()->Request()->getDeviceType() === 'mobile';
+///////////////////////////////////////////////////////////////////////////////////////////////
+$this->contextService = $contextService ?: Shopware()->Container()->get('shopware_storefront.context_service');
+$shop = $this->contextService->getShopContext()->getShop();
+$shopUrl = 'http://' . $shop->getHost() . $shop->getUrl();
 
+if ($shop->getSecure()) {
+    $shopUrl = 'https://' . $shop->getHost() . $shop->getUrl();
+}
 
 
 
