@@ -116,6 +116,8 @@ $shopUrl = 'http://' . $shop->getHost() . $shop->getUrl();
 if ($shop->getSecure()) {
     $shopUrl = 'https://' . $shop->getHost() . $shop->getUrl();
 }
-
+///////////////////////////////////////////////////////////////////////
+article url in detail
+content="{url sArticle=$sArticle.articleID title=$sArticle.articleName controller=detail}"
 
 
