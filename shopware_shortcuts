@@ -124,6 +124,16 @@ INNER join in DB
 SELECT s_articles.id, s_articles.name, s_articles_details.ordernumber FROM `s_articles`
 INNER JOIN s_articles_details ON s_articles.id = s_articles_details.articleID WHERE s_articles.active = 0
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+css full wid div in container
+.custom--uber-uns-5 {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 100px;
+    margin-top: 100px;
+    background: red;
+    left: 50%;
+}
+//////////////////////////////////
 
 
