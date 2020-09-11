@@ -1,0 +1,94 @@
+<div class="custom--uber-uns custom--uber-uns-cont">
+        <h1 class="custom--uber-uns-1">
+            Wir sind it-nerd24
+        </h1>
+        
+        <div class="custom--uber-uns-2">
+            <div class="custom--uber-uns-2-1">
+                Wir sind ein junges, dynamisches und weltoffenes Team mit dem Unternehmenssitz im schönen Münster. Gegründet im Jahre 2012 haben wir uns mittlerweile zu einem der größten Reseller für Softwarelizenzen entwickelt. Dabei ist unser Ziel nicht das schnelle Wachsen, sondern unseren Kunden den best möglichen Service zu bieten. Dies erreichen wir zum einen durch unsere gute Erreichbarkeit, sollte es wiedererwartend mal ein Problem geben, zum Anderen durch unsere geprüften, neuwertigen und günstigen Lizenzen.
+            </div>
+            <div class="custom--uber-uns-2-2">
+                <img class="uber-uns-img1" src="https://it-nerd24.de/media/image/g0/c6/a2/photo-men.png" alt="">
+                <img class="uber-uns-img2" src="https://it-nerd24.de/media/image/43/75/84/it-nerd24_about-us.jpg" alt="">
+            </div>
+        </div>
+        
+        <div class="custom--uber-uns-3">
+            <div class="custom--uber-uns-3-div">
+                <img class="uber-uns-img-3-6" src="{media path="media/vector/headquarter.svg"}" alt="">
+                <div class="custom--uber-uns-3-div-text1">
+                    Headquarter
+                </div>
+                <div class="custom--uber-uns-3-div-text2">
+                    Münster
+                </div>                
+            </div>
+            <div class="custom--uber-uns-3-div">
+                <img class="uber-uns-img-3-6" src="{media path="media/vector/eco.svg"}" alt="">
+                <div class="custom--uber-uns-3-div-text1">
+                    Verpackungen
+                </div>
+                <div class="custom--uber-uns-3-div-text2">
+                    0%
+                </div>                
+            </div>
+            <div class="custom--uber-uns-3-div">
+                <img class="uber-uns-img-3-6" src="{media path="media/vector/secure.svg"}" alt="">
+                <div class="custom--uber-uns-3-div-text1">
+                    Sicherheit
+                </div>
+                <div class="custom--uber-uns-3-div-text2">
+                    sehr hoch
+                </div>                
+            </div>
+            <div class="custom--uber-uns-3-div">
+                <img class="uber-uns-img-3-6" src="{media path="media/vector/thump-up.svg"}" alt="">
+                <div class="custom--uber-uns-3-div-text1">
+                    Kundenzufriedenheit
+                </div>
+                <div class="custom--uber-uns-3-div-text2">
+                    100%
+                </div>                
+            </div>
+            
+        </div>
+        
+        <div class="custom--uber-uns-4">
+            <div class="custom--uber-uns-4-1">
+                <img class="uber-uns-img7" src="https://it-nerd24.de/media/image/8b/e1/a8/it-nerd24_about-us_1-1.png" alt="">
+            </div>
+            <div class="custom--uber-uns-4-2">
+                <p class="custom--uber-uns-4-2-text1">
+                    Was machen wir?
+                </p>
+                <p class="custom--uber-uns-4-2-text2-3">
+                    Wir handeln mit neuen und gebrauchten Softwarelizenzen, die in nahezu allen Unternehmen und der gesamten Öffentlichkeit zum Einsatz kommen und das zu sehr fairen Preisen. Unser geschultes Personal prüft jede einzelne Lizenz und garantieren so eine absolute Rechtssicherheit. Und sollten Sie einmal nicht zufrieden sein, bieten wir eine 100% Geld-zurück-Garantie.
+                </p>
+                <p class="custom--uber-uns-4-2-text2-3">
+                     Was uns unter anderem auszeichnet, ist unser Teamwork und eine sehr offene Unternehmenskultur. Durch Mitarbeiter unterschiedlicher Herkunft und unterschiedlichem Know-How, ergänzen wir uns gegenseitig und das mit viel Freude an der Arbeit.
+                </p>
+            </div>
+        </div>
+        <div class="custom--uber-uns-5">
+            <div class="custom--uber-uns-5-cont">
+            <div class="custom--uber-uns-5-1">
+                Das it-nerd24 Team wartet auf dich
+            </div>
+            <div class="custom--uber-uns-5-2">
+                <a href="/" class="custom--uber-uns-5-2-btn">Karriere bei it-nerd24</a>
+            </div></div>
+        </div>
+        <div class="custom--uber-uns-6">
+            <div class="custom--uber-uns-6-1">
+                <p class="custom--uber-uns-6-1-text1">
+                    Und noch mehr…
+                </p>
+                <p class="custom--uber-uns-6-1-text2">
+                    Durch unsere meist digitalen Prozesse, sind wir in der Lage, zu 99% auf Papier oder Verpackungen zu verzichten. So tragen wir einen großen Teil zum Umweltschutz bei. Und das nicht nur in Deutschland. Mittlerweile sind wir in aktuell 7 Ländern in Europa vertreten und arbeiten mit Hochdruck daran, auch in weiteren Ländern, Lizenzen zu fairen Preisen anzubieten.
+                </p>
+            </div>
+            <div class="custom--uber-uns-6-2">
+                <img class="uber-uns-img8" src="https://it-nerd24.de/media/image/27/af/3b/it-nerd24_about-us_2-1.png" alt="">
+            </div>
+        </div>
+    </div>
