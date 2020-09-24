@@ -135,5 +135,13 @@ css full wid div in container
     left: 50%;
 }
 //////////////////////////////////
-
+<?php if($_POST==null){ 
+        echo "<script type='text/javascript'> 
+                setTimeout(function() {
+                    //document.getElementById('form').submit();
+                    document.getElementById('down-a').click();
+                }, 3000)
+             </script>";
+            } ?>
+//////////////////////////////////////            
 
