@@ -144,4 +144,16 @@ css full wid div in container
              </script>";
             } ?>
 //////////////////////////////////////            
+SELECT * FROM `s_order_basket_attributes` a
+WHERE a.basketID NOT IN (
+    SELECT o.id
+    FROM `s_order_basket` o    
+)
+/////////////////////////////////////
+
+
+
+
+
+
 
