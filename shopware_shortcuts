@@ -143,15 +143,9 @@ css full wid div in container
                 }, 3000)
              </script>";
             } ?>
-//////////////////////////////////////            
-SELECT * FROM `s_order_basket_attributes` a
-WHERE a.basketID NOT IN (
-    SELECT o.id
-    FROM `s_order_basket` o    
-)
 /////////////////////////////////////
-
-
+SELECT * FROM `s_order_basket_attributes` WHERE s_order_basket_attributes.basketID NOT IN ( SELECT s_order_basket.id FROM `s_order_basket` )
+/////////////////////////////////////////////////
 
 
 
