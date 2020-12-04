@@ -149,7 +149,7 @@ SELECT * FROM `s_order_basket_attributes` WHERE s_order_basket_attributes.basket
 SELECT * FROM `s_order_basket` WHERE s_order_basket.id NOT IN (SELECT s_order_basket_attributes.basketID FROM `s_order_basket_attributes`)
 /////////////////////////////////////////////////
 
-
+$Link = $controller->Front()->Router()->assemble(['sViewport' => 'detail', 'sArticle' => $ArticleId]);
 
 
 
