@@ -151,5 +151,18 @@ SELECT * FROM `s_order_basket` WHERE s_order_basket.id NOT IN (SELECT s_order_ba
 
 $Link = $controller->Front()->Router()->assemble(['sViewport' => 'detail', 'sArticle' => $ArticleId]);
 
+///////////////////////////////////////////////////////////////////
+dynamic snippets
+smarty @index
+
+{foreach $tabs as $tab}
+    <div class="content--faq--question">{$tab@index + 1}.{$name = "tabNameArticleId{$tab.article_id}tabId{$tab.id}"}
+                                                    {$namespace = "apcCustomtab"}
+                                                    {$tab.tab_name|snippet:$name:$namespace}</div>
+    <div class="content--faq--answer">{$name = "tabContentArticleId{$tab.article_id}tabId{$tab.id}"}
+                                                {$namespace = "apcCustomtab"}
+                                                {$tab.tab_content|snippet:$name:$namespace}  </div>
+{/foreach}
+////////////////////////////////////////////////////////
 
 
